@@ -29,8 +29,8 @@ gTool version
 - transfer    批量注水
 - version     打印gTool版本号
 
-2、批量部署
-gTool deploy -s 1 -e 50
+2、批量部署  
+gTool deploy -s 1 -e 50  
 即可部署50个节点
 
 查看参数说明
@@ -39,28 +39,28 @@ gTool deploy -h
 Usage:
 gTool deploy [flags]
 
-Flags:
--e, --end int     使用 -e 设置结束 (default 20)
--h, --help        help for deploy
+Flags:  
+-e, --end int     使用 -e 设置结束 (default 20)  
+-h, --help        help for deploy  
 -s, --start int   使用 -s 设置起始 (default 1)
 
 
 -s 代表节点开始数   -e代表节点结束
 
-3、查看所有部署的节点地址
-gTool address -s 1 -e 50
+3、查看所有部署的节点地址  
+gTool address -s 1 -e 50  
 会在终端打印1-50节点的地址 并会在当前路径下生成address.txt
 
-4、批量注水
+4、批量注水  
 gTool transfer -p ./address.txt
 
 -p代表需要注水的地址（address.txt一行一个地址，可以直接拿第三步的文件）
 
 5、批量重启
-gTool restart  -s 1 -e 50
+gTool restart  -s 1 -e 50  
 -s -e参数如上
 
-6、获取私钥
+6、获取私钥  
 gTool key  -s 1 -e 50
 
 
