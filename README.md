@@ -5,7 +5,7 @@ grey批量部署工具
 
 # 安装
 
-1、 wget https://github.com/greylinlin/grey/releases/download/0.0.3/gTool
+1、 wget https://github.com/greylinlin/grey/releases/download/0.0.4/gTool
 
 2、 mv gTool /usr/bin
 
@@ -14,7 +14,7 @@ grey批量部署工具
 #### 验证是否安装成功
 
 gTool version
-- 0.0.3
+- 0.0.4
 - 出现版本信息即为安装成功
 
 # 使用
@@ -62,6 +62,9 @@ gTool restart  -s 1 -e 50
 
 6、获取私钥  
 gTool key  -s 1 -e 50
+
+7、余额查询
+gTool balance  -s 1 -e 50
 
 
 
