@@ -63,7 +63,7 @@ gTool restart  -s 1 -e 50
 6、获取私钥  
 gTool key  -s 1 -e 50
 
-7、余额查询
+7、余额查询  
 gTool balance  -s 1 -e 50
 
 
